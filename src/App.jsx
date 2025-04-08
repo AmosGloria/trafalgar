@@ -1,5 +1,7 @@
 import './App.css'
-import Header from './components/header/header'
+import Header from './components/header/header';
+import OurServices from './components/header/ourServices/ourServices';
+
 
 function App() {
   
@@ -8,6 +10,7 @@ function App() {
     
       <div>
        <Header/>
+       <OurServices/>
       </div>
   )
 }
