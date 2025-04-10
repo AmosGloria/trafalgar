@@ -10,7 +10,7 @@ function OurServices() {
             <img src='./our_services.png'></img>
         </div>  
         <div>
-          <button className='border border-blue-300 px-6 py-1 rounded-full'>Learn more</button>
+          <button className='border border-blue-300 px-6 py-1 rounded-full hover:bg-blue-50 transition'>Learn more</button>
         </div>
     </div>
   )

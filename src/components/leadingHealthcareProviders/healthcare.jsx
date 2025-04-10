@@ -21,7 +21,7 @@ function Healthcare() {
           Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
           in the solutions we deliver.
         </p>
-        <button className=" border border-blue-300 px-6 py-1 rounded-full">
+        <button className=" border border-blue-300 px-6 py-1 rounded-full shadow hover:bg-blue-400 transition">
           Learn more
         </button>
       </div>

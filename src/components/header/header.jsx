@@ -17,13 +17,14 @@ function Header() {
         {/* Left Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl mb-4 md:mt-10">
-            Virtual Healthcare <span className="block">for you</span>
+            Virtual Healthcare 
+            <span className="block">for you</span>
           </h1>
           <p className="text-gray-600 mb-6 max-w-md mx-auto lg:mx-0">
             Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone.
           </p>
           <div>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+            <button className="bg-blue-600 text-white px-6 py-2 rounded-full shadow hover:bg-blue-400 transition">
               Consult today
             </button>
           </div>
