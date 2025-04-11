@@ -12,14 +12,12 @@ function Testimonials() {
 
       {/* Testimonial Card */}
       <div className="relative bg-gradient-to-r from-blue-500 to-blue-300 py-12 px-22 mx-22 rounded-3xl overflow-hidden">
-        {/* Top-right inside element image */}
         <img
           src="./element.png"
           alt="element"
           className="absolute top-0 right-0 w-20 h-20 object-contain z-10"
         />
 
-        {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-2xl font-bold text-white">What our customers are saying</h1>
           <div className="border border-white w-7 mx-auto my-4"></div>
@@ -27,7 +25,6 @@ function Testimonials() {
 
         {/* Testimonial Section (Image + Name + Text in row) */}
         <div className="flex justify-between items-center gap-2">
-          {/* Left side: Image + Name/Title */}
           <div className="flex items-center gap-4">
             <img
               src="./testimonial.png"
@@ -40,7 +37,6 @@ function Testimonials() {
             </div>
           </div>
 
-          {/* Right side: Testimonial text */}
           <div className="text-white max-w-xl text-left">
             <p>
               “Our dedicated patient engagement app and web portal allow you to access information instantaneously
@@ -50,7 +46,6 @@ function Testimonials() {
         </div>
       </div>
       
-        {/* Navigation Arrows */}
         <div className="flex justify-center items-center gap-4 mt-12 text-blue-400">
   {/* Left Arrow */}
   <svg
