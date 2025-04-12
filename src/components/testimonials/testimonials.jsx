@@ -11,7 +11,8 @@ function Testimonials() {
       />
 
       {/* Testimonial Card */}
-      <div className="relative bg-gradient-to-r from-blue-500 to-blue-300 py-12 px-22 mx-22 rounded-3xl overflow-hidden">
+      <div className="relative bg-gradient-to-b from-[#67C3F3] via-[#5A98F2] to-[#5A98F2] py-12 px-22 mx-22 rounded-3xl overflow-hidden">
+
         <img
           src="./element.png"
           alt="element"
@@ -46,7 +47,7 @@ function Testimonials() {
         </div>
       </div>
       
-        <div className="flex justify-center items-center gap-4 mt-12 text-blue-400">
+        <div className="flex justify-center items-center gap-4 mt-12 text-[#458FF6] w-336.4285888671875 h-20 t-4191px l-633px">
   {/* Left Arrow */}
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ function Testimonials() {
     className="size-6 cursor-pointer"
   >
     <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
-  </svg>
+  </svg >
 <span>....</span>
   {/* Right Arrow */}
   <svg

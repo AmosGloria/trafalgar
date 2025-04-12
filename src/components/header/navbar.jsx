@@ -20,8 +20,10 @@ const Navbar = () => {
     <nav className="bg-white">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <img src="./logo.png" alt="Logo" className="w-28 h-7" />
-
+        <div >
+        <img src="./logo.png" alt="Logo" className="left-[191px] top-[56px]"/>
+        </div>
+       
         {/* Hamburger Icon */}
         <button
           className="md:hidden text-gray-700"
