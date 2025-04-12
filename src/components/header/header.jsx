@@ -15,7 +15,7 @@ function Header() {
       <div className="flex flex-col lg:flex-row items-center justify-between mt-34 gap-4">
         {/* Left Content */}
         <div className="lg:w-1/2 text-center w-[445px] h-[338px] top-[283px] left-[190px]">
-          <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl mb-4 md:mt-18 lg:text-left">
+          <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl mb-4 lg:text-left">
             Virtual Healthcare 
             <span className="block">for you</span>
           </h1>
