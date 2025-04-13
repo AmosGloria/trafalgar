@@ -10,7 +10,7 @@ function Header() {
       <img 
         src="./element.png" 
         alt="Decorative Element"
-        className="hidden md:block absolute w-[131.58103942871094] h-[114.99999237060547] top-[170px] -left-[50px] opacity: 0.3"/>
+        className="hidden md:block absolute w-[131.58103942871094] h-[114.99999237060547] top-[170px] -left-[2px] opacity: 0.3"/>
 
       <div className="flex flex-col lg:flex-row items-center justify-between mt-34 gap-4">
         {/* Left Content */}
