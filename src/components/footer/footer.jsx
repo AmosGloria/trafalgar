@@ -3,22 +3,24 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-gradient-to-r from-blue-700 to-blue-400  text-white px-8 py-12 text-left">
-      <div className="flex flex-col lg:flex-row justify-between gap-12 max-w-7xl mx-auto">
+    <div className="bg-gradient-to-r from-blue-700 to-blue-400 text-white w-full h-[523px] flex items-center justify-center relative">
+      <div className="flex flex-col lg:flex-row justify-center items-start gap-20 w-full max-w-7xl px-6">
+        
         {/* Brand Info */}
-        <div className="lg:w-1/4">
+        <div className="flex flex-col items-start justify-center text-left max-w-xs">
           <img src="trafalgar.png" alt="Trafalgar Logo" className="mb-4" />
-          <p className="text-sm mb-4">
-            Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
-            for everyone
+          <p className="text-sm mb-2 font-light text-[18px] leading-[28px]">
+            Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
           </p>
-          <p className="text-xs text-white/80">©Trafalgar PTY LTD 2020. All rights reserved</p>
+          <p className="text-xs text-white/80">
+            ©Trafalgar PTY LTD 2020. All rights reserved
+          </p>
         </div>
 
         {/* Links - Company */}
-        <div>
+        <div className="flex flex-col items-start justify-center text-left">
           <h1 className="text-lg font-semibold mb-4">Company</h1>
-          <ul>
+          <ul className="space-y-2">
             <li><Link to="/about" className="hover:text-blue-200">About</Link></li>
             <li><Link to="/testimonials" className="hover:text-blue-200">Testimonials</Link></li>
             <li><Link to="/find-doctor" className="hover:text-blue-200">Find a Doctor</Link></li>
@@ -27,25 +29,36 @@ function Footer() {
         </div>
 
         {/* Links - Region */}
-        <div>
+        <div className="flex flex-col items-start justify-center text-left">
           <h1 className="text-lg font-semibold mb-4">Region</h1>
-          <p className="mb-2">Indonesia</p>
-          <p className="mb-2">Singapore</p>
-          <p className="mb-2">Hongkong</p>
-          <p>Canada</p>
+          <ul className="space-y-2">
+            <li>Indonesia</li>
+            <li>Singapore</li>
+            <li>Hongkong</li>
+            <li>Canada</li>
+          </ul>
         </div>
 
         {/* Links - Help */}
-        <div>
+        <div className="flex flex-col items-start justify-center text-left">
           <h1 className="text-lg font-semibold mb-4">Help</h1>
-          <p className="mb-2">Help Center</p>
-          <p className="mb-2">Contact support</p>
-          <p className="mb-2">Instructions</p>
-          <p>How it works</p>
+          <ul className="space-y-2">
+            <li>Help Center</li>
+            <li>Contact support</li>
+            <li>Instructions</li>
+            <li>How it works</li>
+          </ul>
         </div>
       </div>
+
+      {/* Decorative Element */}
+      <img 
+        src='element.png' 
+        className='absolute bottom-0 left-0 w-[132px] h-[115px] opacity-30' 
+        alt="Decorative element" 
+      />
     </div>
-  )
+  );
 }
 
 export default Footer;

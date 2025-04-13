@@ -73,7 +73,8 @@ function LatestArticles() {
       </div>
 
       <div className="text-center mt-8 z-10 relative">
-        <button className="border border-blue-300 px-6 py-1 rounded-full shadow hover:bg-blue-400 transition">
+        <button className="border-[1.4px] border-[#458FF6] w-[200px] h-[60px] top-[2027px] left-[704px] rounded-[55px]
+  hover:bg-blue-50 transition font-bold text-[18px] leading-[60px] tracking-normal text-[#458FF6]">
           View All
         </button>
       </div>
