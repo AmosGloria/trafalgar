@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-gradient-to-r from-blue-700 to-blue-400 text-white w-full h-[523px] flex items-center justify-center relative">
-      <div className="flex flex-col lg:flex-row justify-center items-start gap-20 w-full max-w-7xl px-6">
+    <div className="bg-gradient-to-r from-blue-700 to-blue-400 text-white w-screen h-[523px] flex items-center justify-center relative">
+      <div className="flex flex-col lg:flex-row justify-center items-start gap-20 w-screen px-8">
         
         {/* Brand Info */}
         <div className="flex flex-col items-start justify-center text-left max-w-xs">
