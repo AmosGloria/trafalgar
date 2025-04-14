@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-gradient-to-r from-blue-700 to-blue-400 text-white w-screen h-[523px] flex items-center justify-center relative">
+        {/* Decorative Element */}
+        <img 
+        src='element.png' 
+        className='absolute top-0 right-0 w-[132px] h-[115px]' 
+        alt="Decorative element" 
+      />
       <div className="flex flex-col lg:flex-row justify-center items-start gap-20 w-screen px-8">
         
         {/* Brand Info */}
